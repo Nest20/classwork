@@ -1,0 +1,7 @@
+import random
+x = 0
+list = [random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)]
+for i in list:
+  if i >= x:
+    x = i
+print(x)

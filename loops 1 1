@@ -1,0 +1,6 @@
+word = input()
+x = 0
+while True:
+  if word[x] not in 'aeiou':
+    print(word[x])
+  x += 1
